@@ -5,6 +5,9 @@ Limitations:
 It can be used only for sorting integers.
 It is more efficient when value of integers in the list is not high. 
 
+To start with, we create a list to store number. 
+
+
 
 
 
