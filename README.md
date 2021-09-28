@@ -12,7 +12,7 @@ Fastest sorting algorithm for integers. Order O(n)
 <p>
 This is fine when integers are non-negative. Now how to handle negative integers? For that, we insert negative integers towards left hand side just like as they appear on number line. But now our first integers in the list is no longer 0. To keep track of where our 0 is, we store the number of integers before zero in a separate variable offset. For example, our unsorted list is [-4, 3, 5, -1, 0], then new list will be [[-4], ' ', ' ', [-1], [0], ' ', ' ', [3], ' ', [5]]. Now we iterate through new list and combine all the sublists removing empty strings which will give us sorted list [-4, -1, 0, 3, 5]. </p>
 
-
+![alt text](Sorting_all.png)
 
 
 
